@@ -19,6 +19,9 @@ hardstatus string '%{= Kd} %{= Kd}%-w%{= Kr}[%{= KW}%n %t%{= Kr}]%{= Kd}%+w %-= 
 
 # ctrl-left and ctrl-right to nav through tabs
 bindkey "^[[1;5C" next  # change window with ctrl-right
-bindkey "^[[1;5D" prev  # change window with ctrl-left
+bindkey "^[[2;5D" prev  # change window with ctrl-left
 
 screen 		-t bash		1
+
+#disable ctrl +s
+bind s
