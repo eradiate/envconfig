@@ -6,4 +6,4 @@
 "vimrc
 set ai 
 set tabstop=3
-set expantab
+set expandtab
