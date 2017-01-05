@@ -1,0 +1,6 @@
+/alias hideadd eval set activity_hide_targets $activity_hide_targets $-
+/alias hideclear set -c activity_hide_targets
+/alias hidelevels.clear set -c activity_hide_level
+/alias hidelevels.set set activity_hide_level parts joins quits nicks modes
+/alias hidelist set activity_hide_targets
+/alias hideset set activity_hide_targets $-
