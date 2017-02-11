@@ -23,5 +23,3 @@ bindkey "^[[2;5D" prev  # change window with ctrl-left
 
 screen 		-t bash		1
 
-#disable ctrl +s
-bind s
